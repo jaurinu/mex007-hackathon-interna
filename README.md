@@ -87,7 +87,7 @@ Con base en el scouting que realizamos, generamos el siguiente prototipo dinámi
 
 ## Diagrama de flujo baja fidelidad
 
-![Diagrama de flujo](imagenesReadMe/flowmap baja fidelidad.png)
+![Diagrama de flujo](imagenesReadMe/flowmap_baja_fidelidad.png)
 
 ## Diagrama de flujo alta fidelidad
 
