@@ -1,5 +1,4 @@
-
-## Descubre Cine.
+## Salón Rojo.
 
 <!-- ## Índice
 
@@ -35,13 +34,13 @@ Y aunque la fotografía fue determinante en el desarrollo y progreso del cinemat
 
 ![Imagene historia cine](imagenesReadMe/la-mujer-pionera-de-cine.png)
 
-## Prototipo persona
-
-![Prototipo persona](imagenesReadMe/Proto-persona.png)
-
 ## Investigación consumo del cine en México
-
 ![Prototipo persona](imagenesReadMe/estudio_consumo_cine_mx2.png)
+
+
+
+## Prototipo persona
+![Prototipo persona](imagenesReadMe/Proto-persona.png)
 
 <!-- ## Iteración prototipo persona
 
@@ -49,11 +48,22 @@ Una vez que realizamos investagación, identificamos algunas puntos que eran nec
 
 ## Definición del producto
 
-**Descubre cine** es una interfaz que está dirigida tanto a mujeres como hombres de entre 25-30 años que desean obtener recomendaciones de películas mediante género o accediendo a nuestras dinámicas y divertidas mediante nuestras **play-movies**. **Play-movies** hace referencia a recomendaciones de películas mediante estados de ánimo.
 
-En **Descubre cine** estamos comprometidas en mostrar las diferentes opciones de películas para tu entretenimiento y a la vez nos interesa que conozcas más opciones de las que te ofrece el cine comercial.
+¿Te ha pasado que no sabes que ver, y buscas durante muchos minutos? ¡Te entendemos! Sabemos cómo te sientes y lo frustrante que puede llegar a ser.
+**Salón Rojo** es una interfaz que está dirigida tanto a mujeres como hombres de entre 25-30 años que desean obtener recomendaciones de películas mediante género o accediendo a nuestras dinámicas y divertidas **play-movies**. **Play-movies** hace referencia a recomendaciones de películas mediante estados de ánimo.
+Resolviendo la tediosa tarea de buscar una película por mucho tiempo sin encontrar una que te atrape, en **Sillón Rojo** nos dimos a la tarea de recomendarte una cinta según tu estado de animo.
 
-**Descubre cine** se muestra como una propuesta fresca, pero a la vez  empática e interesada en las motivaciones de l@s usuari@s para consumir cine. Además en **Descubre cine** queremos ayudar a que nuestr@s usuari@s no pierdan sus tiempo en búsquedas infinitas. ¿Te ha pasado que no sabes que ver, y buscas durante muchos minutos? ¡Te entendemos! Sabemos cómo te sientes y lo frustrante que puede llegar a ser.
+En **Salón Rojo** estamos comprometidas en mostrar las diferentes opciones de películas para tu entretenimiento y a la vez nos interesa que conozcas más opciones de las que te ofrece el cine comercial.
+
+**Salón Rojo** se muestra como una propuesta fresca, pero a la vez  empática e interesada en las motivaciones de l@s usuari@s para consumir cine. Además en **Salón Rojo** queremos ayudar a que nuestr@s usuari@s no pierdan sus tiempo en búsquedas infinitas.
+
+
+## Historia de la marca: Buscando el nombre ideal
+Nos inspiramos en el emblemático **Salón Rojo** recinto catalogado como el primer cine de la Ciudad de México y el primero con escaleras eléctricas, que hizo su incursión como sala cinematografica el 6 de Agosto de 1896.
+
+![Salón Rojo](/imagenesReadMe/salonrojo.jpg)
+
+Fuente: "El Universal"
 
 ## Historias de usuario
 
@@ -84,7 +94,6 @@ Decidimos investigar acerca de las opciones que ofrece el mercado actual en cuan
 
 Con base en el scouting que realizamos, generamos el siguiente prototipo dinámico en [marvel](https://marvelapp.com/), da click [aquí](https://marvelapp.com/geba2ce/screen/53883376) para conocerlo.
 
-
 ## Diagrama de flujo baja fidelidad
 
 ![Diagrama de flujo](imagenesReadMe/flowmap_baja_fidelidad.png)
@@ -95,9 +104,59 @@ Con base en el scouting que realizamos, generamos el siguiente prototipo dinámi
 
 ## Encuestas de usabilidad
 
-Teniendo el prototipo de baja fidelidad, realizamos encuestas para conocer la experiencia de usabilidad de l@s usuari@s y saber más acerca de sus rutinas y poder idetificar en qué momentos utilizarán la aplicación, mediante qué dispositivos, conocer sus sugerencias de navegación, empatizar en sus gustos, motivaciones y break points. Puedes consultar algunas de estas entrevistas dando click [aquí]()
+Teniendo el prototipo de baja fidelidad, realizamos encuestas para conocer la experiencia de usabilidad de l@s usuari@s, y saber más acerca de sus rutinas y poder idetificar en qué momentos utilizarán la aplicación, mediante qué dispositivos, conocer sus sugerencias de navegación, empatizar en sus gustos, motivaciones y break points. Puedes consultar algunas de estas entrevistas dando click [aquí](https://docs.google.com/forms/d/1U0yQufW5jhdXMTxn9T12zjxu2_Tu5VgeDvagUwKnUt4/edit#responses)
+
+## Documentación de audio
+Entrevista Alex: https://soundcloud.com/karen-ramirez-403538963/alex
+
+Entrevista Cristal: https://soundcloud.com/karen-ramirez-403538963/entrevista-cristal
+
+Entrevista Florence: https://soundcloud.com/karen-ramirez-403538963/florance
+
+## Iteración después de feedback: Pruebas de Usabilidad
+
+Una vez que realizamos pruebas de usabilidad, mostrando el prototipo a diversoso usuarios identificamos algunas puntos que eran necesarios cambiar para mejorar la experiencia del usuarios. Recibimos en cuenta las siguientes observaciones:
+![Aquí](imagenesReadMe/pizarron.jpg)
+
 
 ## Prototipo alta fidelidad
 
-Con base en las encuestas realizados, se generó el siguiente prototipo de alta fidelidad, da click [aquí](https://marvelapp.com/1d9666i6/screen/53886498) para conocerlo.
-<!-- ## Insights -->
+Con base en las encuestas realizados, se generó el siguiente prototipo de alta fidelidad, da click [aquí](https://goo.gl/forms/dGj5zvGCKtPhBBeX2) para conocerlo.
+
+## Autores
+
+- Génesis Enríquez
+- Viviana Navarro Bello
+- Janet Urbina Núñez
+- Daniela Sierra
+- Karen Ramírez Legorreta
+
+## Herramientas
+
+- Vanilla Javascript
+- Html5
+- CSS3
+- Boostrap
+- Marvel
+
+## Especificación de roles
+
+Desarrollo, planeación, investigación, historias de usuario, diseño de la experiencia de usuario, inspiración de la marca, formularios, encuestas, entrevistas por parte de todas las integrantes del equipo.
+
+UX
+
+Génesis Enríquez
+Karen Ramírez Legorreta
+Viviana Navarro Bello
+Janet Urbina Núñez
+Daniela Sierra
+Frontend
+
+Génesis Enríquez
+Viviana Navarro Bello
+Janet Urbina Núñez
+Daniela Sierra
+
+## Agradecimientos
+
+A nuestras compañeras, couches y staff por el opoyo.

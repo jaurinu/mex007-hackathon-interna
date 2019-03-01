@@ -1,22 +1,79 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
-	<title>FILM</title>
-	<link href="style.css" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8">
+    <title>Salón Rojo</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+     crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale= 1.0, minimum-scale= 1.0">
+    <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
-
 <body>
-  
-	<div id="poster"> </div>
- 
+  <header>
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="logotipos/LogoSRojoGrande.png" style="width:25%" class="d-line-block" alt="logo">
+        </a>
+        <form>
+            <input type="text" id="browser" name="search" placeholder="Search..">
+        </form>
+        <a href="#">
+            <img src="logotipos/home.png" width="100%" height="100%" class="d-inline-block" alt="" id="home">
+        </a>
+    </nav>
+    </header>
 
-	
+    <div id="print-poster">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="./assets/descubre-cine.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./assets/Dominguear.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./assets/Empoderamiento.jpg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./assets/corazones rotos.jpg" alt="Fourth slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./assets/felicidad.jpg" alt="Five slide">
+            </div>
+
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <section> <!-- cambie esta seccion-->
+            <button type="button" name="button" class="movie-genre" id="Drama">Drama<img src="./assets/drama_boton_1.jpg" alt="drama"></button>
+            <button type="button" name="button" class="movie-genre" id="Horror">Terror<img src="./assets/horror_boton_1.jpg" alt="horror"></button>
+            <button type="button" name="button" class="movie-genre" id="Comedy">Comedia<img src="./assets/comedia_boton_1.jpg" alt="comedia"></button>
+            <button type="button" name="button" class="movie-genre" id="Romance">Romance<img src="./assets/romantica_boton_1.jpg" alt="romantica"></button>
+            <button type="button" name="button" class="movie-genre" id="Action">Acción<img src="./assets/accion_boton_1.jpg" alt="accion"></button>
+            <button type="button" name="button" class="movie-genre" id="Sci-Fi">Ciencia Ficción<img src="./assets/ciencia_ficcion_boton_1.jpg" alt="ficcion"></button>
+           </section>
+     </div>
 </body>
-
 <script src="index.js"></script>
 <script src="main.js"></script>
-
-</html>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+ crossorigin="anonymous"></script>
