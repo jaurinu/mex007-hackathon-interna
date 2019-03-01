@@ -13,6 +13,7 @@ const movies= [
  const printPoster= document.getElementById("print-poster");
  const  btnn = document.getElementsByClassName('btnn');
  const buttonBackHome = document.getElementById("home");
+ const playListMovie = document.getElementsByName('play-list');
  const dataAllMovies=[];
 
  buttonBackHome.addEventListener('click', () => { // Boton para refresh versión mobile (casita)
@@ -71,6 +72,10 @@ const movies= [
    <p class="contenidos">
    ${dataAllMovies.Ratings[1].Source}, ${dataAllMovies.Ratings[1].Value}
    </p>
+   <p>Trailer</p>
+   <div class="video-responsive">
+       <a class="trailer" href="#"><iframe name="Metropolis" src="https://www.youtube.com/embed/on2H8Qt5fgA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></a>
+</div>
 
 </div>
 </div>
