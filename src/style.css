@@ -1,0 +1,160 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+#print-poster{
+
+    text-align: center;
+
+}
+
+.navbar{
+  position: relative;
+}
+
+.log{
+  position: relative;
+    left: -19%;
+    top: 37px;
+}
+
+.navbar-brand {
+display: inline-block;
+padding-top: .3125rem;
+padding-bottom: .3125rem;
+margin-right: -31rem;
+font-size: 1.25rem;
+line-height: inherit;
+white-space: nowrap;
+}
+
+input{
+  margin-left: 38%;
+}
+
+/* .top{
+      padding-top: 21%;
+}
+
+header{
+  position: fixed;
+    z-index: 20;
+    width: 100%;
+} */
+
+input[type=text] {
+    width: 67%;
+     height: 40px;/* cambie esta linea */
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 40px;
+    font-size: 16px;
+    background-color:white;
+    background-image: url('logotipos/magnifying-glass.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    /* position: relative;
+    left: 37%; */
+ }
+
+ .movie-genre{
+
+        background: rgb(19, 12, 17);
+        border: none;
+        width: 140px;
+        border-radius: 10px;
+        margin: 10px 10px 10px 22px;
+        padding: 11px 3px 9px;
+        font-size: 15px;
+        font-weight: bold;
+        color: whitesmoke;
+        display: inline-block;
+ }
+
+
+ .carousel-inner{
+  margin-bottom:  5%;
+ }
+
+ .wrapper {
+    display: inline-block;
+    margin: 8% 0 8% 8%;
+    padding-bottom: 10px;
+    width: 140px;
+    height: 206px;
+  }
+
+
+  .tamaño{
+      width: 100%;
+      border-top-left-radius: 14px;
+      border-top-right-radius: 14px;
+  }
+
+  .gender{
+    padding: 4% 0 0;
+    margin: auto;
+    font-size: 10px;
+    font-weight: bold;
+    color: rgb(43, 31, 31);
+ }
+
+  .wrapper-text {
+    background: #d88591;
+    padding-bottom: 5px;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+  }
+
+  .single-card{
+   margin-top: 7%;
+   width: 100%;
+   height: 36vh;
+}
+ .poster{
+     width: 45%;
+     float: left;
+    }
+
+ .poster-size{
+   margin: 35px 15px 0 28px;
+   padding-bottom: 10px;
+   width: 75%;
+ }
+
+ .text{
+   margin-top: 9%;
+   width: 50%;
+   float: left;
+   text-align: left;
+ }
+ .titulo{
+   display: inline;
+   margin: 20px auto;
+   color: grey;
+   font-family: 'Roboto', sans-serif;
+   font-size: 20px;
+   font-weight: bold;
+ }
+
+ .sinopsis{
+   color: grey;
+   font-family: 'Roboto', sans-serif;
+   font-size: 20px;
+   font-weight: bold;
+ }
+
+ .secciones{
+   color: red;
+   font-family: 'Roboto', sans-serif;
+   font-size: 15px;
+   font-weight: bold;
+ }
+
+ .contenidos{
+   color: grey;
+   font-family: 'Roboto', sans-serif;
+   font-size: 15px;
+}
